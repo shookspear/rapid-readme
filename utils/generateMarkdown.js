@@ -42,21 +42,30 @@ Licensed under the ${license} license. For more information please visit: ${rend
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  # ${data.description}
+  ## Description
+   ${data.description}
 
-  # ${data.tableOfContents}
+  ## Table of Contents
+   ${data.tableOfContents}
 
-  # ${data.installation}
+  ## Installation Instructions
+   ${data.installation}
 
-  # ${data.usage}
+  ## Usage Notes
+   ${data.usage}
 
-  # ${data.license}
+  ## Licenses
+   ${data.license}
 
-  # ${data.contributing}
+  ## Contributing Guidelines
+   ${data.contributing}
 
-  # ${data.tests}
+  ## Tests
+   ${data.tests}
 
-  # ${data.questions}
+  ## Additional Questions
+   ${data.username}
+   ${data.email}
 
 
 `;
