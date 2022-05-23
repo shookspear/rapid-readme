@@ -26,11 +26,6 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'tableOfContents',
-        message: 'Table of Contents'
-      },
-      {
-        type: 'input',
         name: 'installation',
         message: 'Installation'
       },
@@ -54,12 +49,7 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Tests'
-      },
-      {
-        type: 'input',
-        name: 'questions',
-        message: 'Questions'
-      },
+      }
     ];
 
 // Function to prompt user to answer Questions

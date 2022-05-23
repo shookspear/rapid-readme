@@ -33,40 +33,51 @@ function renderLicenseLink(license) {
 // Function that returns the license section of README
 function renderLicenseSection(license) {
    return `## License
-Licensed under the ${license} license. For more information please visit: ${renderLicenseSection()}   
+Licensed under the ${license} license. For more information please visit: ${renderLicenseLink(license)}   
     `
   };
-
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  [![License](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
+
+   
+
   ## Description
    ${data.description}
 
   ## Table of Contents
-   ${data.tableOfContents}
+  
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributing Guidelines](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
 
-  ## Installation Instructions
+  ## Installation
    ${data.installation}
 
-  ## Usage Notes
+  ## Usage
    ${data.usage}
 
-  ## Licenses
-   ${data.license}
+  ${renderLicenseSection(data.license)}  
 
-  ## Contributing Guidelines
+
+  ## Contributing
    ${data.contributing}
 
   ## Tests
    ${data.tests}
 
-  ## Additional Questions
-   ${data.username}
-   ${data.email}
+  ## Questions
 
+  My GitHub profile can be found here: https://github.com/${data.username}
+  
+  You can contact me via email for additional questions: ${data.email}
 
 `;
 
