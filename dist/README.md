@@ -1,11 +1,11 @@
-# erererer
+# ReadMe Rapid Generator
 
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
    
 
   ## Description
-   ere
+   This is a node js application that auto generates a ReadMe file for GitHub
 
   ## Table of Contents
   
@@ -18,25 +18,25 @@
   - [Questions](#Questions)
 
   ## Installation
-   re
+   Standard installation instructions
 
   ## Usage
-   er
+   run: npm start
 
   ## License
-Licensed under the MIT license. For more information please visit: https://opensource.org/licenses/MIT   
+Licensed under the GNU GPL v3 license. For more information please visit: https://www.gnu.org/licenses/gpl-3.0   
       
 
 
   ## Contributing
-   reerer
+   Feel free to join me on this project
 
   ## Tests
-   ere
+   There are no test considerations
 
   ## Questions
 
   My GitHub profile can be found here: https://github.com/shookspear
   
-  You can contact me via email for additional questions: ewew@rreer.com
+  You can contact me via email for additional questions: echeta@echeta.com
 
