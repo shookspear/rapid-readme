@@ -9,6 +9,6 @@ This is command line application that allows users to create a professional READ
 * Node.js
 
 ## Walk Through Video
-Part 1: https://drive.google.com/file/d/1v150qRAV-6aeVd1y34AuuGM3gT9VqUAv/view
+Part 1: https://drive.google.com/file/d/1a9BJshhS1S90DGR-8xEWbx6KBrB9S66Z/view
 
 ### ©️2022 Echeta Okeke
